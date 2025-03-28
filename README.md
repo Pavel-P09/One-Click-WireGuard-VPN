@@ -180,18 +180,16 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\vpn-interactive.ps1"
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
-.
-├── server-setup.sh            # One-click VPN + REST API installer
-├── client-linux.sh            # Linux client script
-├── vpn-interactive.ps1        # Windows PowerShell client
-├── README.md                  # Documentation
-└── LICENSE                    # MIT license
+LICENSE               # MIT license
+README.md             # Documentation and usage instructions
+client-linux.sh       # Linux client script
+server-setup.sh       # One-click VPN + REST API installer
+vpn-interactive.ps1   # Windows PowerShell client
 ```
 
----
 
 ## 🔒 Security Notes
 
