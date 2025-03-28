@@ -40,6 +40,10 @@ Clients on Linux and Windows can connect to the VPN by simply entering a usernam
 | Windows Client   | Windows 10+  | WireGuard app, PowerShell       |
 
 ---
+## Architecture
+
+![VPN Architecture](assets/architecture.svg)
+
 
 ## 🚀 Quick Start Guide
 
