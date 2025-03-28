@@ -1,5 +1,10 @@
 # One-Click WireGuard VPN
 
+<p align="center">
+  <img src="assets/banner.png" width="100%">
+</p>
+
+
 ### 🔐 Authenticated WireGuard VPN with REST API — connect with login & password, no config files needed
 
 ---
