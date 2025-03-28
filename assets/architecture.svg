@@ -1,0 +1,40 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 20px sans-serif; }
+    .label { font: 14px sans-serif; }
+    rect { fill: #e0e0e0; stroke: #888; stroke-width: 1.5; rx: 8; ry: 8; }
+    line, path { stroke: #555; stroke-width: 1.5; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+
+  <text x="290" y="30" class="title">One-Click WireGuard VPN Architecture</text>
+
+  <!-- Server -->
+  <rect x="330" y="70" width="140" height="60"/>
+  <text x="355" y="100" class="label">VPN Server</text>
+
+  <!-- API -->
+  <rect x="330" y="150" width="140" height="60"/>
+  <text x="355" y="180" class="label">REST API</text>
+
+  <!-- Clients -->
+  <rect x="60" y="280" width="160" height="60"/>
+  <text x="95" y="310" class="label">Linux Client</text>
+
+  <rect x="580" y="280" width="160" height="60"/>
+  <text x="610" y="310" class="label">Windows Client</text>
+
+  <!-- Arrows -->
+  <line x1="140" y1="280" x2="400" y2="150"/>
+  <line x1="660" y1="280" x2="400" y2="150"/>
+
+  <line x1="140" y1="280" x2="400" y2="100"/>
+  <line x1="660" y1="280" x2="400" y2="100"/>
+
+  <text x="200" y="200" class="label">POST login/pass</text>
+  <text x="510" y="200" class="label">POST login/pass</text>
+</svg>
