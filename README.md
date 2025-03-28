@@ -184,14 +184,20 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\vpn-interactive.ps1"
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```
-📄 LICENSE              # MIT license
-📄 README.md            # Documentation and usage instructions
-📄 client-linux.sh      # Linux client script (interactive CLI)
-📄 server-setup.sh      # One-click VPN + REST API installer
-📄 vpn-interactive.ps1  # Windows PowerShell client (menu + logging)
+.
+├── .github/
+│   └── workflows/
+│       └── lint.yml          ✅ GitHub Actions: shell script linter
+├── assets/
+│   └── architecture.svg      🧭 SVG diagram of VPN architecture
+├── LICENSE                   📄 MIT License
+├── README.md                 📘 Full documentation and usage guide
+├── client-linux.sh           🎯 Linux client script (menu + login/password)
+├── server-setup.sh           🚀 One-click installer for WireGuard VPN server + REST API
+└── vpn-interactive.ps1       💻 Windows PowerShell client (interactive, logs)
 ```
 
 
